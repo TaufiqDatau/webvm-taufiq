@@ -4,19 +4,9 @@ const normal= "\x1b[0m";
 export const introMessage = [
 	"+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+",
 	"|                                                                             |",
-	"| WebVM is a virtual Linux environment running in the browser via WebAssembly |",
-	"|                                                                             |",
-	"| WebVM is powered by the CheerpX virtualization engine, which enables safe,  |",
-	"| sandboxed client-side execution of x86 binaries, fully client-side          |",
-	"|                                                                             |",
-	"| CheerpX includes an x86-to-WebAssembly JIT compiler, a virtual block-based  |",
-	"| file system, and a Linux syscall emulator                                   |",
-	"|                                                                             |",
-	"| [News] CheerpX 1.0 officially released!                                     |",
-	"|                                                                             |",
-	"| " + underline + "https://cheerpx.io/blog/cx-10" + normal + "                                               |",
-	"|                                                                             |",
-	"| Try out the new Alpine / Xorg / i3 WebVM: " + underline + "https://webvm.io/alpine.html" + normal + "      |",
+	"| This is Taufiq Experimental Website using WebVM to run in the browser       |",
+	"| Using Virtual Machine to Run Linux in the Browser                           |",
+	"| Hope you like it!                                                           |",
 	"|                                                                             |",
 	"+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+",
 	"",
@@ -26,7 +16,6 @@ export const introMessage = [
 	"     gcc -o helloworld examples/c/helloworld.c && ./helloworld",
 	"     objdump -d ./helloworld | less -M",
 	"     vim examples/c/helloworld.c",
-	"     curl --max-time 15 parrot.live  # requires networking",
 	""
 ];
 export const errorMessage = [

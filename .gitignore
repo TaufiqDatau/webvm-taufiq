@@ -1,0 +1,11 @@
+.svelte-kit
+build
+node_modules
+
+config_github_terminal.js
+config_github_terminal.js
+debian_mini_20230519_5022088024.ext2
+nginx_access.log
+nginx_error.log
+nginx_main_error.log
+nginx_user.pid
